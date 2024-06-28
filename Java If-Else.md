@@ -32,3 +32,5 @@
 <p>n is odd and odd numbers are weird, so we print Weird.</p>
 <p>Sample Case 1: n = 24</p>
 <p>n > 20 and n is even, so it isn't weird. Thus, we print Not Weird.</p>
+<p>Java solution</p>
+
