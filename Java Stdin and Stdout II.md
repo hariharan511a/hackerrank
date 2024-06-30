@@ -31,12 +31,16 @@ public class Solution {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int i = scan.nextInt();
+        
+        // Read double from stdin
+        double d = scan.nextDouble();
 
-        // Write your code here.
-        float d = scan.nextFloat();
         scan.nextLine();
+        
+        // Read string from stdin
         String s = scan.nextLine();
         
+        // Print the outputs in the specified format
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
