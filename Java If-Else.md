@@ -34,3 +34,15 @@
 <p>n > 20 and n is even, so it isn't weird. Thus, we print Not Weird.</p>
 <p>Java solution:</p>
 
+```Java
+if (n % 2 == 1) {
+    System.out.println("Weird");
+} else {
+    if (n >= 6 && n <= 20) {
+        System.out.println("Weird");
+    } else {
+        System.out.println("Not Weird");
+    }
+}
+```
+
